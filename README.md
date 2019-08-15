@@ -2,8 +2,7 @@
 
 Video Analytics Serving provides the structure and key components needed to bootstrap development of visual processing solutions. Video Analytics Serving has been designed to simplify the deployment and use of hardware optimized video analytics pipelines. A reference service implementation exposes RESTful interfaces that make use of example pipelines to get you started.
 
-These endpoints and pipelines may be customized to negotiate the inputs and outputs appropriate to many use cases. Developers may choose to customize and then execute pre-defined video analytics (VA) pipelines in either [GStreamer](https://github.com/opencv/gst-video-analytics/wiki)
- or [FFmpeg](https://github.com/OpenVisualCloud/Dockerfiles/blob/master/doc/ffmpeg.md).
+These endpoints and pipelines may be customized to negotiate the inputs and outputs appropriate to many use cases. Developers may choose to customize and then execute pre-defined video analytics (VA) pipelines in either [GStreamer](https://github.com/opencv/gst-video-analytics/wiki) or [FFmpeg](https://github.com/OpenVisualCloud/Dockerfiles/blob/master/doc/ffmpeg.md).
 
  Each VA pipeline type defines the semantics of its customizable parameters. These parameters are included in requests to start a pipeline and will influence the runtime behavior of a VA pipeline. In this way VA pipeline developers may define named and versioned VA pipelines and expose them to users via simple RESTful interfaces.
 
